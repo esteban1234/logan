@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://loganindustrial.com/index.php
+ Options -Indexes
