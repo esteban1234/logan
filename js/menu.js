@@ -1,24 +1,44 @@
-$(function() {
-    var contador = 1;
-    var pull = $('.op-menu');
-    menu = $('nav');
-    abrir = $('.abrir');
-    cerrar = $('.cerrar');
-    menuHeight = pull.height();
+$(document).ready(menu);
 
-    $(pull).on('click', function(e) {
-        e.preventDefault();
+var contador = 1;
+
+function desplazar() {
+    $(window).scroll(function(){
+            if( $(this).scrollTop() > 100 ) {
+
+               $('header').addClass('efecscroll').slideDown(100000);
+               $('.menu-op').addClass('efecmenu')
+            } else{
+               $('header').removeClass('efecscroll');
+               $('.menu-op').removeClass('efecmenu');
+            }
+
+       });
+}
+
+
+function menu() {
+menu = $('nav');
+abrir = $('.abrir');
+cerrar = $('.cerrar');
+
+    $('.menu-op').click(function() {
         if (contador == 1) {
-           menu.slideToggle(100);
-            contador = 0;
+            menu.slideDown(1000);
+            abrir.slideUp(1000);
+            cerrar.slideDown(1000);
+            contador = 0;            
+            
         } else {
-            menu.slideToggle(100);
-            // abrir.slideToggle(100);
             contador = 1;
+            menu.slideUp(1000);
+            abrir.slideDown(1000);
+            cerrar.slideUp(1000);
         }
     });
 
-    // if(menuHeight > 5){
-    //   pull.css('position','fixed');
-    // }
-});
+    desplazar();    
+
+}
+
+

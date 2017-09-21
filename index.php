@@ -50,14 +50,15 @@
         <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
       </ul>
     </nav>
-    <div class="op-menu">
+     <div class="menu-op">
       <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+      <i class="fa fa-times fa-2x cerrar" aria-hidden="true"></i>
     </div>
   </header>
 
   <p class="text-banner">SOPORTES PARA MAQUINARIA <br> PESADA Y VIBRACIÓN.</p>
   <div style="text-align: center; margin-top: 5%; margin-bottom: 5%; color: #fff;">
-    <a class="btn btn-warning btn-outline btn-lg" data-scroll href="#CONTACTO">CONTACTANOS</a>
+    <a class="btn btn-warning btn-outline btn-lg btn-color" data-scroll href="#CONTACTO">CONTACTANOS</a>
   </div>
 </div>
 
@@ -76,43 +77,43 @@
 
 <div class="mvv">
   <div class="section">
-      <div class="container" style="margin-top: 2%; margin-bottom: 7%;">
+      <div class="container delete" style="margin-top: 2%; margin-bottom: 7%;">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center" style="color: #BA95C5;">¿Por que Elegir LOGAN?</h1>
+            <h1 class="text-center nos-h1" style="color: #BA95C5;">¿Por que Elegir LOGAN?</h1>
             <!-- <p class="text-center">We are a group of skilled individuals.</p> -->
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-2 text-right ">
+          <div class="col-xs-12 col-sm-2 col-md-2 text-right oculto">
             <i class="fa fa-usd fa-5x" aria-hidden="true"></i>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4">
-            <h3 class="text-left" style="margin-top: 0;">Excelentes Precios</h3>
-            <p class="text-left">Precios competitivos en todos los servicios. ¡No hay cargos ocultos de ningún tipo!</p>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h3 class="text-left texto-centrado" style="margin-top: 0;">Excelentes Precios</h3>
+            <p class="text-left texto-centrado">Precios competitivos en todos los servicios. ¡No hay cargos ocultos de ningún tipo!</p>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-2 text-right ">
+          <div class="col-xs-12 col-sm-2 col-md-2 text-right oculto">
             <i class="fa fa-pencil-square-o fa-5x" aria-hidden="true"></i>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4">
-            <h3 class="text-left" style="margin-top: 0;">Cotize Fácil Online</h3>
-            <p class="text-left"> Rellene nuestro formulario de contacto, y le enviaremos la cotización que usted necesita.</p>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h3 class="text-left texto-centrado" style="margin-top: 0;">Cotize Fácil Online</h3>
+            <p class="text-left texto-centrado"> Rellene nuestro formulario de contacto, y le enviaremos la cotización que usted necesita.</p>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-2 text-right ">
+          <div class="col-xs-12 col-sm-2 col-md-2 text-right oculto">
             <i class="fa fa-clock-o fa-5x" aria-hidden="true"></i>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4">
-            <h3 class="text-left">Períodos flexibles</h3>
-            <p class="text-left">Servicio disponible los 365 dias del año.</p>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h3 class="text-left texto-centrado">Períodos flexibles</h3>
+            <p class="text-left texto-centrado">Servicio disponible los 365 dias del año.</p>
           </div>
-          <div class="col-xs-12 colsm-12 col-md-2 text-right ">
+          <div class="col-xs-12 col-sm-2 col-md-2 text-right oculto">
             <i class="fa fa-phone fa-5x" aria-hidden="true"></i>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 text-center">
-            <h3 class="text-left">Asistencia telefónica</h3>
-            <p class="text-left">Estamos disponibles de lunes a viernes de 9 am a 6 pm.</p>
+          <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+            <h3 class="text-left texto-centrado">Asistencia telefónica</h3>
+            <p class="text-left texto-centrado">Estamos disponibles de lunes a viernes de 9 am a 6 pm.</p>
           </div>
         </div>
       </div>
@@ -125,22 +126,22 @@
               <div class="iconos">
                 <i class="fa fa-check-square-o fa-3x fa-border " aria-hidden="true"></i>
               </div>
-              <h2 class="text-center ">MISION</h2>
-              <p class="text-center ">Brindar a nuestros clientes servicios en el cumplimiento de obligaciones Fiscales, Contables y Administrativas, proporcionando los servicios de Consultoría y la Asesoría Fiscal; siempre con un alto nivel de experiencia profesional, conocimiento y compromiso.</p>
+              <h2 class="text-center mvc">MISION</h2>
+              <p class="text-center mvc-justificado">Brindar a nuestros clientes servicios en el cumplimiento de obligaciones Fiscales, Contables y Administrativas, proporcionando los servicios de Consultoría y la Asesoría Fiscal; siempre con un alto nivel de experiencia profesional, conocimiento y compromiso.</p>
             </div>
             <div class="col-sm-6 col-md-4 ">
               <div class="iconos">
                 <i class="fa fa-line-chart fa-3x fa-border " aria-hidden="true"></i>
               </div>
-              <h2 class="text-center">VISION</h2>
-              <p class="text-center">Continuar como empresa pionera satisfaciendo las necesidades de nuestros clientes con la más alta calidad y a cumplir en forma veraz y en apego a las leyes vigentes los propósitos establecidos en los proyectos de trabajo.</p>
+              <h2 class="text-center mvc">VISION</h2>
+              <p class="text-center mvc-justificado">Continuar como empresa pionera satisfaciendo las necesidades de nuestros clientes con la más alta calidad y a cumplir en forma veraz y en apego a las leyes vigentes los propósitos establecidos en los proyectos de trabajo.</p>
             </div>
             <div class="clearfix visible-sm-block"></div>
             <div class="col-md-4">
               <div class="iconos">
                 <i class="fa fa-handshake-o fa-3x fa-border " aria-hidden="true"></i>
               </div>
-              <h2 class="text-center">VALORES</h2>
+              <h2 class="text-center mvc">VALORES</h2>
               <p class="text-center">
                Trabajo en equipo <br>
                  Responsabilidad <br>
@@ -161,13 +162,13 @@
 <section class="seccion2" id="SERVICIOS">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center" style="color: #fff;">SERVICIOS</h1>
+          <h1 class="text-center h1-tit" style="color: #fff;">SERVICIOS</h1>
           <p class="lead text-center textt-nosotros" style="color: #fff;">Nos esforzamos por ofrecer a nuestros clientes el mejor servicio <br> para que tengan una experiencia exitosa con nosotros.</p>
         </div>
       </div> <br><br>
        
       <div class="row">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-2 card">
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 card">
         <a href="#">
         <div class="thumbnail">
             <div style="background-color:  #566573; height: 100px;" ></div>
@@ -181,7 +182,7 @@
         </div>
         </a>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 card">
+      <div class="col-xs-12 col-sm-5 col-md-4 card">
         <a href="#">
         <div class="thumbnail">
             <div style="background-color:  #566573; height: 100px;" ></div>
@@ -205,7 +206,7 @@
       </div> <br><br>
 
       <div class="row">
-      <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-2 card">
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 card">
         <a href="#">
         <div class="thumbnail">
             <div style="background-color:  #566573; height: 100px;" ></div>
@@ -225,7 +226,7 @@
         </div>
         </a>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 card">
+      <div class="col-xs-12 col-sm-5 col-md-4 card">
         <a href="#">
         <div class="thumbnail">
             <div style="background-color:  #566573; height: 100px;" ></div>
@@ -254,8 +255,8 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-center text-danger text-dise-nosotros" style="color: #BA95C5;">CONTACTO</h1> <br><br><br>
+        <div class="col-md-12 delete">
+          <h1 class="text-center text-danger text-dise-nosotros h1-tit" style="color: #BA95C5;">CONTACTO</h1> <br><br><br>
 
           <p class="lead text-center">Encuentranos cerca de ti, teléfonos, horarios, direcciones y contacto.</p>
         </div>
@@ -268,33 +269,33 @@
 
       <div class="row">
           <div class="col-sm-6 col-md-3 br-contacto">
-            <div class="iconos">
+            <div class="iconos new-icono">
               <i class="fa fa-clock-o fa-3x fa-border" aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">Horario</h2>
+            <h2 class="h2-subt text-center">Horario</h2>
             <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
           </div>
           <div class="col-sm-6 col-md-3 br-contacto">
-            <div class="iconos">
+            <div class="iconos new-icono">
               <i class="fa fa-envelope-o fa-3x fa-border" aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">Correo</h2>
+            <h2 class="h2-subt text-center">Correo</h2>
             <p class="text-center">info@loganindustrial.com</p>
           </div>
           <div class="col-sm-6 col-md-3 br-contacto">
-            <div class="iconos">
+            <div class="iconos new-icono">
               <i class="fa fa-phone fa-3x fa-border" aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">Teléfono</h2>
+            <h2 class="h2-subt text-center">Teléfono</h2>
             <p class="text-center">Pendiente
             </p>
           </div>
 
           <div class="col-sm-6 col-md-3 br-contacto">
-            <div class="iconos">
+            <div class="iconos new-icono">
               <i class="fa fa-map-marker fa-3x fa-border" aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">Dirección</h2>
+            <h2 class="h2-subt text-center">Dirección</h2>
             <p class="text-center">C. 7A #279E por C. 40 y C. 38 Col. CAMPESTRE, MERIDA, YUCATAN. C.P.97120.
             </p>
           </div>
@@ -309,13 +310,13 @@
 
 <section id="contact" class="content-section">
       <div class="section-content">
-        <h1 class="section-header  text-center">FORMULARIO</h1>
-        <h3 class="text-center">Escribenos tus comentario, dudas o preguntas, estamos para servirte.</h3>
+        <h1 class="section-header  text-center h1-tit">FORMULARIO</h1>
+        <h3 class="text-center text-sub">Escribenos tus comentario, dudas o preguntas, estamos para servirte.</h3>
       </div>
       <div class="contact-section">
       <div class="container">
-        <form>
-          <div class="col-md-6 form-line">
+        <form onSubmit="return false">
+          <div class="col-md-6 form-line ancho">
               <div class="form-group">
                 <label for="exampleInputUsername">Nombre completo</label>
                 <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo">
@@ -329,15 +330,12 @@
                 <input type="tel" class="form-control" id="txtCORREO" placeholder="Escribe tu correo eléctronico">
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 ancho">
               <div class="form-group">
                 <label for ="description"> Comentario</label>
                 <textarea  class="form-control" id="txtCOMENTARIO" placeholder="Escribe tu nombre completo"></textarea>
               </div>
-              <div>
-
-              
-              
+              <div class="btn-enviar">
                 <div id="_AJAX_PRE_" ></div>
                 <button type="submit" class="btn btn-default submit" onclick="sendCORREO()"><i class="fa fa-paper-plane" aria-hidden="true"></i>  ENVIAR</button>
               </div>

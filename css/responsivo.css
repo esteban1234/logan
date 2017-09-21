@@ -1,0 +1,563 @@
+@media screen and (max-width: 480px){
+
+	/***********CLASES SCROLL ********/
+	.efecscroll{
+		position: fixed;
+		width: 100% !important;
+		transition:all .15s ease-in-out;	
+		box-shadow: 0 5px 3px rgba(0,0,0,0.5);
+		left: 0px;
+		top: 0px;
+		background: rgba(255,255,255,0.9);
+		z-index: 2;
+	}
+
+	.efecmenu{
+		position: absolute;
+		top: 10px;
+		right: 30px;
+	}
+
+	/***********END CALSE SCROLL******/
+
+	.logo{
+		margin: auto;
+		float:none !important;
+		width: 50%;
+		margin-top: -25px;
+		margin-bottom: -25px;
+	}
+
+	.menu-op{
+		text-align: center;
+		display: block;
+	}
+
+	.cerrar{
+		display: none;
+	}
+
+	nav{
+		width: 100%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul{
+		padding: 2px 5px;
+	}
+
+	nav ul a{
+		display: block;
+		padding: 10px 0px !important;
+		text-align: center;
+	}
+
+	.bannerh{
+		height: 100%;
+	}
+
+	.text-banner{
+		font-size: 22px;
+		font-weight: bold;
+		padding: 15px 0px;
+		background: rgba(0,0,0,0.6);
+	}
+
+	.btn-color{
+		background: rgba(0,0,0,0.4);
+	}
+
+
+	.somos h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.somos p{
+		text-align: justify;
+		width: 90%;
+	}
+
+	.nos-h1{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.delete br, .seccion2 br, .textt-nosotros br{
+		display: none;
+	}
+
+	.oculto{
+		display: none;
+	}
+
+	.texto-centrado{
+		text-align: center;
+	}
+
+	.mvc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.mvc-justificado{
+		text-align: justify;
+	}
+
+
+	.h1-tit{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.caption{
+		padding: 5px 15px !important;
+
+	}
+
+	.caption p{
+		text-align: justify;
+		font-size: 14px !important;
+	}
+
+	
+	.new-icono, .h2-subt{
+		display: inline-block;
+	}
+
+	.new-icono i{
+		font-size: 30px;
+	}
+
+	.br-contacto{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.text-sub{
+		font-size: 18px;
+	}
+
+	.form-line{
+		border: 0px;
+	}
+
+	.form-group{
+		width: 100%;
+	}
+
+	.ancho{
+		width: 100% !important;
+	}
+
+	.btn-enviar{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.submit{
+		float: none !important;
+	}
+
+	#contact{
+		height: 100%;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 95%;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	/***********CLASES SCROLL ********/
+	.efecscroll{
+		position: fixed;
+		width: 100% !important;
+		transition:all .15s ease-in-out;	
+		box-shadow: 0 5px 3px rgba(0,0,0,0.5);
+		left: 0px;
+		top: 0px;
+		background: rgba(255,255,255,0.9);
+		z-index: 2;
+	}
+
+	.efecmenu{
+		position: absolute;
+		top: 15px;
+		right: 40px;
+	}
+
+	/***********END CALSE SCROLL******/
+
+	.logo{
+		margin: auto;
+		float:none !important;
+		width: 40%;
+		margin-top: -45px;
+		margin-bottom: -35px;
+	}
+
+	.menu-op{
+		text-align: center;
+		display: block;
+	}
+
+	.cerrar{
+		display: none;
+	}
+
+	nav{
+		width: 100%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul{
+		padding: 2px 5px;
+	}
+
+	nav ul a{
+		display: block;
+		padding: 10px 0px !important;
+		text-align: center;
+	}
+
+	.bannerh{
+		height: 100%;
+	}
+
+	.text-banner{
+		font-size: 22px;
+		font-weight: bold;
+		padding: 15px 0px;
+		background: rgba(0,0,0,0.6);
+	}
+
+	.btn-color{
+		background: rgba(0,0,0,0.4);
+	}
+
+
+	.somos h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.somos p{
+		text-align: justify;
+		width: 80%;
+	}
+
+	.nos-h1{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.delete br, .seccion2 br, .textt-nosotros br{
+		display: none;
+	}
+
+	.oculto{
+		display: none;
+	}
+
+	.texto-centrado{
+		text-align: center;
+	}
+
+	.mvc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.mvc-justificado{
+		text-align: justify;
+	}
+
+
+	.h1-tit{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.caption p{
+		text-align: justify;
+		font-size: 14px !important;
+	}
+
+	
+	.new-icono, .h2-subt{
+		display: inline-block;
+	}
+
+	.new-icono i{
+		font-size: 30px;
+	}
+
+	.br-contacto{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.text-sub{
+		font-size: 18px;
+	}
+
+	.form-line{
+		border: 0px;
+	}
+
+	.form-group{
+		width: 100%;
+	}
+
+	.ancho{
+		width: 100% !important;
+	}
+
+	.btn-enviar{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.submit{
+		float: none !important;
+	}
+
+	#contact{
+		height: 100%;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 95%;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/***********CLASES SCROLL ********/
+	.efecscroll{
+		position: fixed;
+		width: 100% !important;
+		transition:all .15s ease-in-out;	
+		box-shadow: 0 5px 3px rgba(0,0,0,0.5);
+		left: 0px;
+		top: 0px;
+		background: rgba(255,255,255,0.9);
+		z-index: 2;
+	}
+
+	.efecmenu{
+		position: absolute;
+		top: 15px;
+		right: 40px;
+	}
+
+	/***********END CALSE SCROLL******/
+
+	.logo{
+		margin: auto;
+		float:none !important;
+		width: 35%;
+		margin-top: -45px;
+		margin-bottom: -45px;
+	}
+
+	.menu-op{
+		text-align: center;
+		display: block;
+	}
+
+	.cerrar{
+		display: none;
+	}
+
+	nav{
+		width: 100%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul{
+		padding: 2px 5px;
+	}
+
+	nav ul a{
+		display: block;
+		padding: 10px 0px !important;
+		text-align: center;
+	}
+
+	.bannerh{
+		height: 100%;
+	}
+
+	.text-banner{
+		font-size: 22px;
+		font-weight: bold;
+		padding: 15px 0px;
+		background: rgba(0,0,0,0.6);
+	}
+
+	.btn-color{
+		background: rgba(0,0,0,0.4);
+	}
+
+
+	.somos h1{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.somos p{
+		text-align: justify;
+		width: 80%;
+	}
+
+	.nos-h1{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.seccion2 br, .textt-nosotros br{
+		display: none;
+	}
+
+	
+
+	.texto-centrado{
+		text-align: center;
+	}
+
+	.mvc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.mvc-justificado{
+		text-align: justify;
+	}
+
+
+	.h1-tit{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.caption p{
+		text-align: justify;
+		font-size: 14px !important;
+	}
+
+	
+	.new-icono, .h2-subt{
+		display: inline-block;
+	}
+
+	.new-icono i{
+		font-size: 30px;
+	}
+
+	.br-contacto{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.text-sub{
+		font-size: 18px;
+	}
+
+	.form-line{
+		border: 0px;
+	}
+
+	.form-group{
+		width: 100%;
+	}
+
+	.ancho{
+		width: 100% !important;
+	}
+
+	.btn-enviar{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.submit{
+		float: none !important;
+	}
+
+	#contact{
+		height: 100%;
+	}
+
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		width: 95%;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+
+	.oculto{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+	form{
+		width: 75%;
+		margin: auto;
+	}
+		.form-line{
+		border: 0px;
+	}
+
+	.form-group{
+		width: 100%;
+	}
+
+	.ancho{
+		width: 100% !important;
+	}
+
+	.btn-enviar{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.submit{
+		float: none !important;
+	}
+
+	#contact{
+		height: 100%;
+	}
+
+	.logo{
+		margin: 12px 3px;
+	}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

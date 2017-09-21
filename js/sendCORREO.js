@@ -1,3 +1,5 @@
+
+
 function sendCORREO(){
 	var connect, form, result, txtNOMBRE, txtCORREO,txtTELEFONO, txtCOMENTARIO;
 	var exprCORREO = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
